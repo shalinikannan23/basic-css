@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #00abf0;
+}
+
+.logo span {
+    color: #000;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #00abf0;
+    font-weight: bold;
+}
+
+.hero {
+    white-space: nowrap; /* Prevent line breaks between inline-block elements */
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    background-color: #f4f4f4;
+    overflow: hidden; /* Ensure no content overflows */
+}
+
+.hero-content {
+    display: inline-block;
+    width: 49%; /* Slightly less than 50% to account for margins/padding */
+    vertical-align: top;
+    padding: 50px;
+    box-sizing: border-box;
+    white-space: normal; /* Allow text to wrap within the content box */
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero-content h1 span {
+    color: #00abf0;
+}
+
+.dropdown {
+    margin-top: 20px;
+}
+
+.dropdown select {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.dropdown button {
+    padding: 10px 20px;
+    background-color: #00abf0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hero-image {
+    display: inline-block;
+    width: 50%;
+    height: 50%; /* Full height of the hero section */
+    vertical-align: top; /* Align with the top of the content */
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    object-position: center; /* Center the image within its container */
+}
+
+.services {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 32px;
+    color: #00abf0;
+}
+
+.services p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+    vertical-align: top;
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service-card img {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.service-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+.service-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #00abf0;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contact {
+    padding: 50px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #00abf0;
+}
+
+.contact p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input,
+form select {
+    display: block;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #00abf0;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
