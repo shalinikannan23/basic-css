@@ -8,8 +8,8 @@ body {
 header {
     display: block;
     padding: 20px;
-    background-color: #fff;
-    border-bottom: 1px solid #ddd;
+    background-color: #081b29;
+    
 }
 
 .logo {
@@ -20,7 +20,7 @@ header {
 }
 
 .logo span {
-    color: #000;
+    color: #fff;
 }
 
 nav {
@@ -32,43 +32,61 @@ nav a {
     display: inline-block;
     margin-left: 15px;
     text-decoration: none;
-    color: #00abf0;
+    color: #fff;
     font-weight: bold;
 }
 
-.hero {
-    white-space: nowrap; /* Prevent line breaks between inline-block elements */
-    width: 100%;
-    height: 100vh; /* Full viewport height */
-    background-color: #f4f4f4;
-    overflow: hidden; /* Ensure no content overflows */
+.landing {
+    background-color: #081b29;
+    overflow: hidden; 
+    background-image: url(new1.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 650px;
 }
 
-.hero-content {
-    display: inline-block;
-    width: 49%; /* Slightly less than 50% to account for margins/padding */
+.landing-content {
+    
     vertical-align: top;
     padding: 50px;
     box-sizing: border-box;
-    white-space: normal; /* Allow text to wrap within the content box */
+    white-space: normal; 
 }
 
-.hero-content h1 {
+
+.landing-content h1 {
     font-size: 36px;
-    color: #333;
+    color: #fff;
 }
 
-.hero-content h1 span {
+.landing-content p {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.landing-content p span {
+    color: #00abf0;
+}
+
+.landing-content h1 span {
     color: #00abf0;
 }
 
 .dropdown {
     margin-top: 20px;
+    
 }
 
 .dropdown select {
     padding: 10px;
     font-size: 16px;
+}
+.btn{
+    display: inline-block;
+    margin-top: 150px;
+    
+    
 }
 
 .dropdown button {
@@ -81,36 +99,41 @@ nav a {
     cursor: pointer;
 }
 
-.hero-image {
-    display: inline-block;
-    width: 50%;
-    height: 50%; /* Full height of the hero section */
-    vertical-align: top; /* Align with the top of the content */
+.landing-image {
+  
+    width: 100%;
+    vertical-align: top; 
     margin: 0;
     padding: 0;
     text-align: right;
 }
 
-.hero-image img {
+.landing-image img {
     width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    object-position: center; /* Center the image within its container */
+   
+    object-fit: cover; 
+    object-position: center; 
 }
 
 .services {
     padding: 50px;
     text-align: center;
+    background-color: #081b29;
 }
 
 .services h2 {
     font-size: 32px;
+    color: #fff;
+}
+
+.services h2 span {
     color: #00abf0;
 }
 
 .services p {
     font-size: 18px;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 .service-card {
@@ -119,21 +142,20 @@ nav a {
     margin: 1%;
     vertical-align: top;
     text-align: left;
-    border: 1px solid #ddd;
     padding: 20px;
     box-sizing: border-box;
 }
 
 .service-card img {
     width: 100%;
-    height: 200px; /* Fixed height */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    border-radius: 10px; /* Optional: add rounded corners */
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
 }
 
 .service-card h3 {
     font-size: 20px;
-    color: #333;
+    color: #00abf0;
 }
 
 .service-card p {
@@ -153,23 +175,30 @@ nav a {
 
 .contact {
     padding: 50px;
-    background-color: #f4f4f4;
+    background-color:  #081b29;
     text-align: center;
+}
+
+.contact h2 span{
+    font-size: 32px;
+    color: #00abf0;
 }
 
 .contact h2 {
     font-size: 32px;
-    color: #00abf0;
+    color: #fff;
 }
 
 .contact p {
     font-size: 18px;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 form {
     display: inline-block;
     text-align: left;
+    color: #00abf0;
 }
 
 form label {
